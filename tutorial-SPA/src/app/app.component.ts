@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'This Application updates on the fly';
+  title = 'This Application may update on the fly';
 }
