@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Warframe} from "./warframe";
 
 const WARFRAMES: Warframe[] = [
   {id: 1, name: 'Excalibur', loadout: 'Melee'},
@@ -11,24 +12,19 @@ const WARFRAMES: Warframe[] = [
   {id: 8, name: 'Limbo', loadout: 'Nuke'},
 ];
 
-export class Warframe {
-  id: number;
-  name: string;
-  loadout: string;
-}
-
 @Component({
   selector: 'my-app',
   template: `
     <h1>{{title}}</h1>
-    
-    <h2>Frame library</h2>
+    <h2>Frame library</h2>   
     <ul class="warframes">
-      <li *ngFor="let warframe of warframes" (click)="onselect(warframe)">
+      <li *ngFor="let warframe of warframes"
+        [class.selected]="warframe === selectedWarframe"
+        (click)="onSelect(warframe)">
         <span class="badge">{{warframe.id}}</span> {{warframe.name}}
-        <!-- warframes are listed here -->
       </li>
     </ul>
+    <warframe-detail [warframe]="selectedWarframe"></warframe-detail>
   `,
 
   styles: [`
@@ -85,5 +81,9 @@ export class AppComponent  {
   title = 'Angular';
   warframes = WARFRAMES;
   selectedWarframe: Warframe;
+
+  onSelect(warframe: Warframe): void {
+    this.selectedWarframe = warframe;
+  }
 }
 
