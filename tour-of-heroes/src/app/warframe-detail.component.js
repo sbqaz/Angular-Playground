@@ -22,7 +22,7 @@ __decorate([
 WarframeDetailComponent = __decorate([
     core_1.Component({
         selector: 'warframe-detail',
-        template: "\n    <div *ngIf=\"selectedWarframe\">\n      <h3>{{selectedWarframe.name}} details!</h3>\n      <div><label>id: </label>{{selectedWarframe.id}}</div>\n      <div>\n        <label>name: </label>\n        <input [(ngModel)]=\"selectedWarframe.name\" placeholder=\"name\">\n      </div>\n    </div>\n  "
+        template: "\n    <div *ngIf=\"warframe\">\n      <h3>{{warframe.name}} details!</h3>\n      <div><label>id: </label>{{warframe.id}}</div>\n      <div>\n        <label>name: </label>\n        <input [(ngModel)]=\"warframe.name\" placeholder=\"name\">\n      </div>\n      <div>\n        <label>loadout: </label>\n        <input [(ngModel)]=\"warframe.loadout\" placeholder=\"loadout\">\n      </div>\n    </div>\n  "
     })
 ], WarframeDetailComponent);
 exports.WarframeDetailComponent = WarframeDetailComponent;
