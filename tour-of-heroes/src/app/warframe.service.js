@@ -19,6 +19,10 @@ var WarframeService = (function () {
             setTimeout(function () { return resolve(_this.getWarframes()); }, 2000);
         });
     };
+    WarframeService.prototype.getWarframe = function (id) {
+        return this.getWarframes()
+            .then(function (warframes) { return warframes.find(function (warframe) { return warframe.id === id; }); });
+    };
     return WarframeService;
 }());
 WarframeService = __decorate([

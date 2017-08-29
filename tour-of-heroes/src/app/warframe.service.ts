@@ -14,4 +14,10 @@ export class WarframeService{
       setTimeout(() =>resolve(this.getWarframes()), 2000);
     });
   }
+
+  getWarframe(id: number): Promise<Warframe> {
+    return this.getWarframes()
+      .then(warframes => warframes.find(warframe => warframe.id === id));
+
+  }
 }

@@ -9,21 +9,36 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var warframe_1 = require("./warframe");
+var router_1 = require("@angular/router");
+var common_1 = require("@angular/common");
+require("rxjs/add/operator/switchMap");
+var warframe_service_1 = require("./warframe.service");
 var WarframeDetailComponent = (function () {
-    function WarframeDetailComponent() {
+    function WarframeDetailComponent(warframeService, route, location) {
+        this.warframeService = warframeService;
+        this.route = route;
+        this.location = location;
     }
+    WarframeDetailComponent.prototype.ngOnInit = function () {
+        var _this = this;
+        this.route.paramMap
+            .switchMap(function (params) { return _this.warframeService.getWarframe(+params.get('id')); })
+            .subscribe(function (warframe) { return _this.warframe = warframe; });
+    };
+    WarframeDetailComponent.prototype.goBack = function () {
+        this.location.back();
+    };
     return WarframeDetailComponent;
 }());
-__decorate([
-    core_1.Input(),
-    __metadata("design:type", warframe_1.Warframe)
-], WarframeDetailComponent.prototype, "warframe", void 0);
 WarframeDetailComponent = __decorate([
     core_1.Component({
         selector: 'warframe-detail',
-        template: "\n    <div *ngIf=\"warframe\">\n      <h3>{{warframe.name}} details!</h3>\n      <div><label>id: </label>{{warframe.id}}</div>\n      <div>\n        <label>name: </label>\n        <input [(ngModel)]=\"warframe.name\" placeholder=\"name\">\n      </div>\n      <div>\n        <label>loadout: </label>\n        <input [(ngModel)]=\"warframe.loadout\" placeholder=\"loadout\">\n      </div>\n    </div>\n  "
-    })
+        templateUrl: './warframe-detail.component.html',
+        styleUrls: ['./warframe-detail.component.css'],
+    }),
+    __metadata("design:paramtypes", [warframe_service_1.WarframeService,
+        router_1.ActivatedRoute,
+        common_1.Location])
 ], WarframeDetailComponent);
 exports.WarframeDetailComponent = WarframeDetailComponent;
 //# sourceMappingURL=warframe-detail.component.js.map

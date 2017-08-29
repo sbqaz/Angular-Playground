@@ -1,0 +1,15 @@
+<h2>Frame library</h2>
+<ul class="warframes">
+  <li *ngFor="let warframe of warframes"
+      [class.selected]="warframe === selectedWarframe"
+      (click)="onSelect(warframe)">
+    <span class="badge">{{warframe.id}}</span> {{warframe.name}}
+  </li>
+</ul>
+
+<div *ngIf="selectedWarframe">
+  <h2>
+    {{selectedWarframe.name}} preview
+  </h2>
+  <button (click)="gotoDetail()">View Details</button>
+</div>

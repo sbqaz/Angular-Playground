@@ -10,9 +10,11 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require("@angular/core");
 var warframe_service_1 = require("./warframe.service");
+var router_1 = require("@angular/router");
 var WarframesComponent = (function () {
-    function WarframesComponent(warframeService) {
+    function WarframesComponent(warframeService, router) {
         this.warframeService = warframeService;
+        this.router = router;
     }
     WarframesComponent.prototype.getWarframes = function () {
         var _this = this;
@@ -24,16 +26,20 @@ var WarframesComponent = (function () {
     WarframesComponent.prototype.onSelect = function (warframe) {
         this.selectedWarframe = warframe;
     };
+    WarframesComponent.prototype.gotoDetail = function () {
+        this.router.navigate(['/detail', this.selectedWarframe.id]);
+    };
     return WarframesComponent;
 }());
 WarframesComponent = __decorate([
     core_1.Component({
         selector: 'my-warframes',
-        template: "\n    <h2>Frame library</h2>   \n    <ul class=\"warframes\">\n      <li *ngFor=\"let warframe of warframes\"\n        [class.selected]=\"warframe === selectedWarframe\"\n        (click)=\"onSelect(warframe)\">\n        <span class=\"badge\">{{warframe.id}}</span> {{warframe.name}}\n      </li>\n    </ul>\n    <warframe-detail [warframe]=\"selectedWarframe\"></warframe-detail>\n  ",
-        styles: ["\n  .selected {\n    background-color: #CFD8DC !important;\n    color: white;\n  }\n  .warframes {\n    margin: 0 0 2em 0;\n    list-style-type: none;\n    padding: 0;\n    width: 15em;\n  }\n  .warframes li {\n    cursor: pointer;\n    position: relative;\n    left: 0;\n    background-color: #EEE;\n    margin: .5em;\n    padding: .3em 0;\n    height: 1.6em;\n    border-radius: 4px;\n  }\n  .warframes li.selected:hover {\n    background-color: #BBD8DC !important;\n    color: white;\n  }\n  .warframes li:hover {\n    color: #607D8B;\n    background-color: #DDD;\n    left: .1em;\n  }\n  .warframes .text {\n    position: relative;\n    top: -3px;\n  }\n  .warframes .badge {\n    display: inline-block;\n    font-size: small;\n    color: white;\n    padding: 0.8em 0.7em 0 0.7em;\n    background-color: #607D8B;\n    line-height: 1em;\n    position: relative;\n    left: -1px;\n    top: -4px;\n    height: 1.8em;\n    margin-right: .8em;\n    border-radius: 4px 0 0 4px;\n  }\n"],
+        templateUrl: './warframes.component.html',
+        styleUrls: ['./warframes.component.css'],
         providers: [warframe_service_1.WarframeService],
     }),
-    __metadata("design:paramtypes", [warframe_service_1.WarframeService])
+    __metadata("design:paramtypes", [warframe_service_1.WarframeService,
+        router_1.Router])
 ], WarframesComponent);
 exports.WarframesComponent = WarframesComponent;
 //# sourceMappingURL=warframes.component.js.map
