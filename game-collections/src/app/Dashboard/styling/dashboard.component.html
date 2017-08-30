@@ -1,9 +1,1 @@
-<h3>Top Warframes</h3>
-<div class="grid grid-pad">
-  <a *ngFor="let warframe of warframes" [routerLink]="['/detail', warframe.id]" class="col-1-4">
-    <div class="module warframe">
-      <h4>{{warframe.name}}</h4>
-    </div>
-  </a>
-</div>
 <warframe-search></warframe-search>

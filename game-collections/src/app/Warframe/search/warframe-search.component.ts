@@ -15,8 +15,8 @@ import {Warframe} from "../warframe";
 
 @Component({
   selector: 'warframe-search',
-  templateUrl: './warframe-search.component.html',
-  styleUrls:  ['./warframe-search.component.css'],
+  templateUrl: './styling/warframe-search.component.html',
+  styleUrls:  ['./styling/warframe-search.component.css'],
   providers: [WarframeSearchService]
 })
 

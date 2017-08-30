@@ -7,11 +7,15 @@ import {Router} from "@angular/router";
 @Component({
   selector: 'my-warframes',
   templateUrl: './styling/warframes.component.html',
-  styleUrls: ['./styling/warframes.component.css'],
+  styleUrls: [
+    './styling/warframes.component.css',
+    './styling/top-frames.component.css'
+  ],
   providers: [WarframeService],
 })
 export class WarframesComponent implements OnInit {
   warframes: Warframe[];
+  topWarframes: Warframe[] = [];
   selectedWarframe: Warframe;
 
   constructor(
@@ -21,6 +25,8 @@ export class WarframesComponent implements OnInit {
 
   getWarframes(): void {
     this.warframeService.getWarframes().then(warframes =>this.warframes = warframes);
+    this.warframeService.getWarframes()
+      .then(warframes => this.topWarframes = warframes.slice(0,4));
   }
   ngOnInit(): void {
     this.getWarframes();

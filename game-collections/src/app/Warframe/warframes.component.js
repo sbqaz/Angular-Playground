@@ -15,10 +15,13 @@ var WarframesComponent = (function () {
     function WarframesComponent(warframeService, router) {
         this.warframeService = warframeService;
         this.router = router;
+        this.topWarframes = [];
     }
     WarframesComponent.prototype.getWarframes = function () {
         var _this = this;
         this.warframeService.getWarframes().then(function (warframes) { return _this.warframes = warframes; });
+        this.warframeService.getWarframes()
+            .then(function (warframes) { return _this.topWarframes = warframes.slice(0, 4); });
     };
     WarframesComponent.prototype.ngOnInit = function () {
         this.getWarframes();
@@ -58,7 +61,10 @@ WarframesComponent = __decorate([
     core_1.Component({
         selector: 'my-warframes',
         templateUrl: './styling/warframes.component.html',
-        styleUrls: ['./styling/warframes.component.css'],
+        styleUrls: [
+            './styling/warframes.component.css',
+            './styling/top-frames.component.css'
+        ],
         providers: [warframe_service_1.WarframeService],
     }),
     __metadata("design:paramtypes", [warframe_service_1.WarframeService,

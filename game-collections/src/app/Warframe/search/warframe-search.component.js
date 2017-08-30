@@ -49,8 +49,8 @@ var WarframeSearchComponent = (function () {
 WarframeSearchComponent = __decorate([
     core_1.Component({
         selector: 'warframe-search',
-        templateUrl: './warframe-search.component.html',
-        styleUrls: ['./warframe-search.component.css'],
+        templateUrl: './styling/warframe-search.component.html',
+        styleUrls: ['./styling/warframe-search.component.css'],
         providers: [warframe_search_service_1.WarframeSearchService]
     }),
     __metadata("design:paramtypes", [warframe_search_service_1.WarframeSearchService,

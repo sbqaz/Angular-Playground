@@ -1,4 +1,11 @@
-<h2>Frame library</h2>
+<h3>Top Warframes</h3>
+<div class="grid grid-pad">
+  <a *ngFor="let warframe of topWarframes" [routerLink]="['/detail', warframe.id]" class="col-1-4">
+    <div class="module warframe">
+      <h4>{{warframe.name}}</h4>
+    </div>
+  </a>
+</div>
 <div>
   <label>Warframe name:</label> <input #warframeName />
   <button (click)="add(warframeName.value); warframeName.value=''">

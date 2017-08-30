@@ -2,44 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="62ba6930-881f-4da3-8eb9-20e1de612d67" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Warframe/services/warframe.service.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Warframe/services/warframe.service.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Warframe/services/warframe.service.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/app/Warframe/styling/warframes.component.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/mock-warframes.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/mock-warframes.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/mock-warframes.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/warframe.service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/warframe.service.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/warframe.service.ts" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/app/warframes.component.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app-routing.module.js" afterPath="$PROJECT_DIR$/src/app/app-routing.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app-routing.module.js.map" afterPath="$PROJECT_DIR$/src/app/app-routing.module.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app-routing.module.ts" afterPath="$PROJECT_DIR$/src/app/app-routing.module.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.spec.js" afterPath="$PROJECT_DIR$/src/app/app.component.spec.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.js" afterPath="$PROJECT_DIR$/src/app/app.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.js.map" afterPath="$PROJECT_DIR$/src/app/app.module.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.module.ts" afterPath="$PROJECT_DIR$/src/app/app.module.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/tour-of-heroes.iml" afterPath="$PROJECT_DIR$/.idea/game-collections.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/dashboard.component.css" afterPath="$PROJECT_DIR$/src/app/Dashboard/styling/dashboard.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/dashboard.component.html" afterPath="$PROJECT_DIR$/src/app/Dashboard/styling/dashboard.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/dashboard.component.js" afterPath="$PROJECT_DIR$/src/app/Dashboard/dashboard.component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/dashboard.component.js.map" afterPath="$PROJECT_DIR$/src/app/Dashboard/dashboard.component.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/dashboard.component.ts" afterPath="$PROJECT_DIR$/src/app/Dashboard/dashboard.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/warframe-detail.component.css" afterPath="$PROJECT_DIR$/src/app/Warframe/details/styling/warframe-detail.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/warframe-detail.component.html" afterPath="$PROJECT_DIR$/src/app/Warframe/details/styling/warframe-detail.component.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/warframe-detail.component.js" afterPath="$PROJECT_DIR$/src/app/Warframe/details/warframe-detail.component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/warframe-detail.component.js.map" afterPath="$PROJECT_DIR$/src/app/Warframe/details/warframe-detail.component.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/warframe-detail.component.ts" afterPath="$PROJECT_DIR$/src/app/Warframe/details/warframe-detail.component.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/warframe.js" afterPath="$PROJECT_DIR$/src/app/Warframe/warframe.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/warframe.js.map" afterPath="$PROJECT_DIR$/src/app/Warframe/warframe.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/warframe.ts" afterPath="$PROJECT_DIR$/src/app/Warframe/warframe.ts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/warframes.component.css" afterPath="$PROJECT_DIR$/src/app/Warframe/styling/warframes.component.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/warframes.component.js" afterPath="$PROJECT_DIR$/src/app/Warframe/warframes.component.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/warframes.component.js.map" afterPath="$PROJECT_DIR$/src/app/Warframe/warframes.component.js.map" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/warframes.component.ts" afterPath="$PROJECT_DIR$/src/app/Warframe/warframes.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Dashboard/styling/dashboard.component.html" afterPath="$PROJECT_DIR$/src/app/Dashboard/styling/dashboard.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.js" afterPath="$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.js.map" afterPath="$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.ts" afterPath="$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Warframe/styling/warframes.component.html" afterPath="$PROJECT_DIR$/src/app/Warframe/styling/warframes.component.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Warframe/warframes.component.js" afterPath="$PROJECT_DIR$/src/app/Warframe/warframes.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Warframe/warframes.component.js.map" afterPath="$PROJECT_DIR$/src/app/Warframe/warframes.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/Warframe/warframes.component.ts" afterPath="$PROJECT_DIR$/src/app/Warframe/warframes.component.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.js" afterPath="$PROJECT_DIR$/src/app/app.component.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.js.map" afterPath="$PROJECT_DIR$/src/app/app.component.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app/app.component.ts" afterPath="$PROJECT_DIR$/src/app/app.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.css" afterPath="$PROJECT_DIR$/src/app/Warframe/search/styling/warframe-search.component.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.html" afterPath="$PROJECT_DIR$/src/app/Warframe/search/styling/warframe-search.component.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,6 +30,54 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DockManager">
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <splitter split-orientation="horizontal" split-proportion="0.5">
+            <split-first>
+              <leaf>
+                <file leaf-file-name="warframes.component.css" pinned="false" current-in-tab="true">
+                  <entry file="file://$PROJECT_DIR$/src/app/Warframe/styling/warframes.component.css">
+                    <provider selected="true" editor-type-id="text-editor">
+                      <state relative-caret-position="107">
+                        <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+                        <folding />
+                      </state>
+                    </provider>
+                  </entry>
+                </file>
+                <file leaf-file-name="top-frames.component.css" pinned="false" current-in-tab="false">
+                  <entry file="file://$PROJECT_DIR$/src/app/Warframe/styling/top-frames.component.css">
+                    <provider selected="true" editor-type-id="text-editor">
+                      <state relative-caret-position="391">
+                        <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+                        <folding />
+                      </state>
+                    </provider>
+                  </entry>
+                </file>
+              </leaf>
+            </split-first>
+            <split-second>
+              <leaf>
+                <file leaf-file-name="top-frames.component.css" pinned="false" current-in-tab="true">
+                  <entry file="file://$PROJECT_DIR$/src/app/Warframe/styling/top-frames.component.css">
+                    <provider selected="true" editor-type-id="text-editor">
+                      <state relative-caret-position="124">
+                        <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+                        <folding />
+                      </state>
+                    </provider>
+                  </entry>
+                </file>
+              </leaf>
+            </split-second>
+          </splitter>
+        </state>
+      </content>
+    </window>
+  </component>
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
@@ -63,7 +87,7 @@
               <file leaf-file-name="warframe.service.ts" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/app/Warframe/services/warframe.service.ts">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="323">
+                    <state relative-caret-position="357">
                       <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
                       <folding>
                         <element signature="e#0#41#0" expanded="true" />
@@ -75,7 +99,7 @@
               <file leaf-file-name="warframe-detail.component.ts" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/app/Warframe/details/warframe-detail.component.ts">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="442">
+                    <state relative-caret-position="476">
                       <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
                       <folding>
                         <element signature="e#0#48#0" expanded="true" />
@@ -84,23 +108,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="in-memory-data.service.ts" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/app/Warframe/services/in-memory-data.service.ts">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="85">
-                      <caret line="5" column="35" lean-forward="false" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-                      <folding>
-                        <element signature="e#0#60#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
               <file leaf-file-name="warframe-search.service.ts" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/app/Warframe/services/warframe-search.service.ts">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="221">
-                      <caret line="13" column="59" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+                    <state relative-caret-position="255">
+                      <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
                       <folding>
                         <element signature="e#0#41#0" expanded="true" />
                       </folding>
@@ -108,44 +120,11 @@
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="warframe-search.component.html" pinned="false" current-in-tab="true">
-                <entry file="file://$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.html">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="153">
-                      <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="warframe-search.component.css" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.css">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="323">
-                      <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-                      <folding />
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="warframe-search.component.ts" pinned="false" current-in-tab="false">
-                <entry file="file://$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.ts">
-                  <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="-102">
-                      <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-                      <folding>
-                        <element signature="e#0#48#0" expanded="true" />
-                        <element signature="e#260#293#0" expanded="true" />
-                      </folding>
-                    </state>
-                  </provider>
-                </entry>
-              </file>
-              <file leaf-file-name="warframes.component.ts" pinned="false" current-in-tab="false">
+              <file leaf-file-name="warframes.component.ts" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/app/Warframe/warframes.component.ts">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="289">
-                      <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+                    <state relative-caret-position="374">
+                      <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
                       <folding>
                         <element signature="e#0#48#0" expanded="true" />
                       </folding>
@@ -160,30 +139,30 @@
               <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="170">
-                      <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+                    <state relative-caret-position="68">
+                      <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
                       <folding>
-                        <marker date="1504088514665" expanded="true" signature="123:280" ph="..." />
+                        <marker date="1504100891741" expanded="true" signature="123:279" ph="..." />
                       </folding>
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
+              <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
                 <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="238">
+                    <state relative-caret-position="-119">
                       <caret line="14" column="67" lean-forward="false" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
                       <folding />
                     </state>
                   </provider>
                 </entry>
               </file>
-              <file leaf-file-name="app-routing.module.ts" pinned="false" current-in-tab="false">
+              <file leaf-file-name="app-routing.module.ts" pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/src/app/app-routing.module.ts">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="255">
-                      <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+                    <state relative-caret-position="85">
+                      <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
                       <folding />
                     </state>
                   </provider>
@@ -195,11 +174,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="dashboard.component.ts" pinned="false" current-in-tab="true">
+          <file leaf-file-name="dashboard.component.ts" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/app/Dashboard/dashboard.component.ts">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+                <state relative-caret-position="255">
+                  <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
                   <folding>
                     <element signature="e#0#48#0" expanded="true" />
                   </folding>
@@ -207,41 +186,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="warframe-detail.component.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/app/Warframe/details/styling/warframe-detail.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="warframes.component.html" pinned="false" current-in-tab="false">
+          <file leaf-file-name="warframes.component.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/app/Warframe/styling/warframes.component.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="374">
-                  <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="warframes.component.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/app/Warframe/styling/warframes.component.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="dashboard.component.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/app/Dashboard/styling/dashboard.component.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
@@ -255,8 +204,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="CSS File" />
         <option value="TypeScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -285,14 +234,12 @@
         <option value="$PROJECT_DIR$/src/app/warframe-detail.component.css" />
         <option value="$PROJECT_DIR$/src/app/dashboard.component.css" />
         <option value="$PROJECT_DIR$/src/app/app.component.css" />
-        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/src/styles.css" />
         <option value="$PROJECT_DIR$/src/app/warframe-detail.component.ts" />
         <option value="$PROJECT_DIR$/src/app/in-memory-data.service.ts" />
         <option value="$PROJECT_DIR$/src/app/Warframe/warframe-detail.component.html" />
         <option value="$PROJECT_DIR$/src/app/Warframe/warframe-detail.component.ts" />
         <option value="$PROJECT_DIR$/src/app/Warframe/warframes.component.html" />
-        <option value="$PROJECT_DIR$/src/app/Warframe/warframes.component.ts" />
         <option value="$PROJECT_DIR$/src/app/Warframe/warframes.component.css" />
         <option value="$PROJECT_DIR$/src/app/Warframe/warframe.service.ts" />
         <option value="$PROJECT_DIR$/src/app/Warframe/services/warframe.service.ts" />
@@ -300,9 +247,14 @@
         <option value="$PROJECT_DIR$/src/app/Warframe/services/warframe-search.service.ts" />
         <option value="$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.css" />
         <option value="$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.ts" />
-        <option value="$PROJECT_DIR$/src/app/Dashboard/styling/dashboard.component.html" />
         <option value="$PROJECT_DIR$/src/app/app.module.ts" />
         <option value="$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.html" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/src/app/Dashboard/styling/dashboard.component.html" />
+        <option value="$PROJECT_DIR$/src/app/Warframe/styling/warframes.component.html" />
+        <option value="$PROJECT_DIR$/src/app/Warframe/styling/warframes.component.css" />
+        <option value="$PROJECT_DIR$/src/app/Warframe/styling/top-frames.component.css" />
+        <option value="$PROJECT_DIR$/src/app/Warframe/warframes.component.ts" />
       </list>
     </option>
   </component>
@@ -386,7 +338,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="Warframe" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
+              <item name="styling" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -411,11 +363,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Git\Angular-Playground\game-collections\src\app\Warframe\services" />
       <recent name="D:\Git\Angular-Playground\game-collections\src\app\Dashboard\styling" />
-      <recent name="D:\Git\Angular-Playground\game-collections\src\app\Dashboard" />
       <recent name="D:\Git\Angular-Playground\game-collections\src\app\Warframe\styling" />
-      <recent name="D:\Git\Angular-Playground\game-collections\src\app\Warframe\details\styling" />
+      <recent name="D:\Git\Angular-Playground\game-collections\src\app\Warframe\search\styling" />
+      <recent name="D:\Git\Angular-Playground\game-collections\src\app\Warframe\services" />
+      <recent name="D:\Git\Angular-Playground\game-collections\src\app\Dashboard" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -552,12 +504,12 @@
       <workItem from="1503927937418" duration="5582000" />
       <workItem from="1503995059202" duration="5056000" />
       <workItem from="1504002451325" duration="1777000" />
-      <workItem from="1504088641517" duration="6432000" />
+      <workItem from="1504088641517" duration="11515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27219000" />
+    <option name="totallyTimeSpent" value="32302000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
@@ -622,16 +574,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/app/Warframe/details/warframe-detail.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Dashboard/dashboard.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -657,7 +599,7 @@
         <state relative-caret-position="238">
           <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
           <folding>
-            <marker date="1504088514665" expanded="true" signature="123:280" ph="..." />
+            <marker date="1504100891741" expanded="true" signature="123:279" ph="..." />
           </folding>
         </state>
       </provider>
@@ -880,32 +822,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Dashboard/styling/dashboard.component.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1020">
-          <caret line="60" column="1" lean-forward="false" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -924,57 +844,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Warframe/details/warframe-detail.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/Warframe/search/styling/warframe-search.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Warframe/details/styling/warframe-detail.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        <state relative-caret-position="323">
+          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Warframe/styling/warframes.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/Warframe/search/styling/warframe-search.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+        <state relative-caret-position="136">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Warframe/warframes.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="48" column="10" lean-forward="false" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Warframe/services/warframe.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="357">
           <caret line="54" column="23" lean-forward="false" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/app-routing.module.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -988,84 +880,144 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Warframe/services/warframe-search.service.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="59" lean-forward="false" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        <state relative-caret-position="-102">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#48#0" expanded="false" />
+            <element signature="e#260#293#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Warframe/styling/warframes.component.css">
+    <entry file="file://$PROJECT_DIR$/src/app/Warframe/details/styling/warframe-detail.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="25" lean-forward="false" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        <state relative-caret-position="34">
+          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="13" column="39" lean-forward="true" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
+        <state relative-caret-position="68">
+          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
           <folding>
-            <marker date="1504088514665" expanded="true" signature="123:280" ph="..." />
+            <marker date="1504100891741" expanded="true" signature="123:279" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="-119">
           <caret line="14" column="67" lean-forward="false" selection-start-line="14" selection-start-column="67" selection-end-line="14" selection-end-column="67" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/Warframe/details/warframe-detail.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="476">
+          <caret line="34" column="30" lean-forward="false" selection-start-line="34" selection-start-column="30" selection-end-line="34" selection-end-column="30" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
-            <element signature="e#260#293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Dashboard/dashboard.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/Dashboard/styling/dashboard.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Dashboard/dashboard.component.ts">
+    <entry file="file://$PROJECT_DIR$/src/app/Warframe/services/warframe-search.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="3" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="3" />
+        <state relative-caret-position="255">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.css">
+    <entry file="file://$PROJECT_DIR$/src/app/Dashboard/styling/dashboard.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="1" lean-forward="false" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+        <state relative-caret-position="170">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Warframe/search/warframe-search.component.html">
+    <entry file="file://$PROJECT_DIR$/src/app/Warframe/styling/top-frames.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="6" lean-forward="true" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
+        <state relative-caret-position="391">
+          <caret line="23" column="12" lean-forward="true" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Warframe/styling/warframes.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Warframe/styling/warframes.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="16" column="18" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Warframe/warframes.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
