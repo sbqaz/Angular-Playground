@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var warframe_service_1 = require("./warframe.service");
+var warframe_service_1 = require("./services/warframe.service");
 var router_1 = require("@angular/router");
 var WarframesComponent = (function () {
     function WarframesComponent(warframeService, router) {
@@ -29,13 +29,36 @@ var WarframesComponent = (function () {
     WarframesComponent.prototype.gotoDetail = function () {
         this.router.navigate(['/detail', this.selectedWarframe.id]);
     };
+    WarframesComponent.prototype.add = function (name) {
+        var _this = this;
+        name = name.trim();
+        if (!name) {
+            return;
+        }
+        this.warframeService.create(name)
+            .then(function (warframe) {
+            _this.warframes.push(warframe);
+            _this.selectedWarframe = null;
+        });
+    };
+    WarframesComponent.prototype.delete = function (warframe) {
+        var _this = this;
+        this.warframeService
+            .delete(warframe.id)
+            .then(function () {
+            _this.warframes = _this.warframes.filter(function (h) { return h !== warframe; });
+            if (_this.selectedWarframe === warframe) {
+                _this.selectedWarframe = null;
+            }
+        });
+    };
     return WarframesComponent;
 }());
 WarframesComponent = __decorate([
     core_1.Component({
         selector: 'my-warframes',
-        templateUrl: './warframes.component.html',
-        styleUrls: ['./warframes.component.css'],
+        templateUrl: './styling/warframes.component.html',
+        styleUrls: ['./styling/warframes.component.css'],
         providers: [warframe_service_1.WarframeService],
     }),
     __metadata("design:paramtypes", [warframe_service_1.WarframeService,

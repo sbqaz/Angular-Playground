@@ -1,0 +1,10 @@
+<div id="search-component">
+  <h4>Warframe Search</h4>
+  <input #searchBox id="search-box" (keyup)="search(searchBox.value)" />
+  <div>
+    <div *ngFor="let warframe of warframes | async"
+         (click)="gotoDetail(warframe)" class="search-result" >
+      {{warframe.name}}
+    </div>
+  </div>
+</div>

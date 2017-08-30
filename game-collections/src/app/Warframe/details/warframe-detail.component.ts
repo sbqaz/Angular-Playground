@@ -3,13 +3,13 @@ import {ActivatedRoute, ParamMap} from "@angular/router";
 import {Location} from "@angular/common";
 import 'rxjs/add/operator/switchMap'
 
-import {WarframeService} from "./warframe.service";
-import {Warframe} from "./warframe";
+import {WarframeService} from "../services/warframe.service";
+import {Warframe} from "../warframe";
 
 @Component({
   selector: 'warframe-detail',
-  templateUrl: './warframe-detail.component.html',
-  styleUrls: [ './warframe-detail.component.css' ],
+  templateUrl: './styling/warframe-detail.component.html',
+  styleUrls: [ './styling/warframe-detail.component.css' ],
 })
 
 export class WarframeDetailComponent implements OnInit{
@@ -29,5 +29,10 @@ export class WarframeDetailComponent implements OnInit{
 
   goBack(): void {
     this.location.back();
+  }
+
+  save(): void {
+    this.warframeService.update(this.warframe)
+      .then(() => this.goBack());
   }
 }

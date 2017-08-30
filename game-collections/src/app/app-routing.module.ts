@@ -1,8 +1,8 @@
 
 import {RouterModule, Routes} from "@angular/router";
-import {DashboardComponent} from "./dashboard.component";
-import {WarframeDetailComponent} from "./warframe-detail.component";
-import {WarframesComponent} from "./warframes.component";
+import {DashboardComponent} from "./Dashboard/dashboard.component";
+import {WarframeDetailComponent} from "./Warframe/details/warframe-detail.component";
+import {WarframesComponent} from "./Warframe/warframes.component";
 import {NgModule} from "@angular/core";
 
 const routes: Routes = [

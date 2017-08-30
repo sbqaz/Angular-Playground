@@ -6,9 +6,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 var router_1 = require("@angular/router");
-var dashboard_component_1 = require("./dashboard.component");
-var warframe_detail_component_1 = require("./warframe-detail.component");
-var warframes_component_1 = require("./warframes.component");
+var dashboard_component_1 = require("./Dashboard/dashboard.component");
+var warframe_detail_component_1 = require("./Warframe/details/warframe-detail.component");
+var warframes_component_1 = require("./Warframe/warframes.component");
 var core_1 = require("@angular/core");
 var routes = [
     { path: '', redirectTo: '/dashboard', pathMatch: 'full' },

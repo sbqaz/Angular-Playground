@@ -1,11 +1,11 @@
 import {Component, OnInit} from "@angular/core";
-import {Warframe} from "./warframe";
-import {WarframeService} from "./warframe.service";
+import {Warframe} from "../Warframe/warframe";
+import {WarframeService} from "../Warframe/services/warframe.service";
 
 @Component({
   selector: 'my-dashboard',
-  templateUrl: './dashboard.component.html',
-  styleUrls: [ './dashboard.component.css' ],
+  templateUrl: './styling/dashboard.component.html',
+  styleUrls: [ './styling/dashboard.component.css' ],
 })
 export class DashboardComponent implements OnInit {
 

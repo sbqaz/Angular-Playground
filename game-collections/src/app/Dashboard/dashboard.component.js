@@ -9,7 +9,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require("@angular/core");
-var warframe_service_1 = require("./warframe.service");
+var warframe_service_1 = require("../Warframe/services/warframe.service");
 var DashboardComponent = (function () {
     function DashboardComponent(warframeService) {
         this.warframeService = warframeService;
@@ -25,8 +25,8 @@ var DashboardComponent = (function () {
 DashboardComponent = __decorate([
     core_1.Component({
         selector: 'my-dashboard',
-        templateUrl: './dashboard.component.html',
-        styleUrls: ['./dashboard.component.css'],
+        templateUrl: './styling/dashboard.component.html',
+        styleUrls: ['./styling/dashboard.component.css'],
     }),
     __metadata("design:paramtypes", [warframe_service_1.WarframeService])
 ], DashboardComponent);

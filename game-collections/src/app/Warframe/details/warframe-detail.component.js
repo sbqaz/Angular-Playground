@@ -12,7 +12,7 @@ var core_1 = require("@angular/core");
 var router_1 = require("@angular/router");
 var common_1 = require("@angular/common");
 require("rxjs/add/operator/switchMap");
-var warframe_service_1 = require("./warframe.service");
+var warframe_service_1 = require("../services/warframe.service");
 var WarframeDetailComponent = (function () {
     function WarframeDetailComponent(warframeService, route, location) {
         this.warframeService = warframeService;
@@ -28,13 +28,18 @@ var WarframeDetailComponent = (function () {
     WarframeDetailComponent.prototype.goBack = function () {
         this.location.back();
     };
+    WarframeDetailComponent.prototype.save = function () {
+        var _this = this;
+        this.warframeService.update(this.warframe)
+            .then(function () { return _this.goBack(); });
+    };
     return WarframeDetailComponent;
 }());
 WarframeDetailComponent = __decorate([
     core_1.Component({
         selector: 'warframe-detail',
-        templateUrl: './warframe-detail.component.html',
-        styleUrls: ['./warframe-detail.component.css'],
+        templateUrl: './styling/warframe-detail.component.html',
+        styleUrls: ['./styling/warframe-detail.component.css'],
     }),
     __metadata("design:paramtypes", [warframe_service_1.WarframeService,
         router_1.ActivatedRoute,

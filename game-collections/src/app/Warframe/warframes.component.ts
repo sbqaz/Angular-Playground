@@ -1,13 +1,13 @@
 import {Component, OnInit} from '@angular/core';
 
-import {Warframe} from "./warframe";
-import {WarframeService} from "./warframe.service";
+import {Warframe} from "./Warframe";
+import {WarframeService} from "./services/warframe.service";
 import {Router} from "@angular/router";
 
 @Component({
   selector: 'my-warframes',
-  templateUrl: './warframes.component.html',
-  styleUrls: ['./warframes.component.css'],
+  templateUrl: './styling/warframes.component.html',
+  styleUrls: ['./styling/warframes.component.css'],
   providers: [WarframeService],
 })
 export class WarframesComponent implements OnInit {
@@ -32,6 +32,25 @@ export class WarframesComponent implements OnInit {
 
   gotoDetail(): void {
     this.router.navigate(['/detail', this.selectedWarframe.id])
+  }
+
+  add(name: string): void {
+    name = name.trim();
+    if (!name) {return}
+    this.warframeService.create(name)
+      .then(warframe => {
+        this.warframes.push(warframe);
+        this.selectedWarframe = null;
+      });
+  }
+
+  delete(warframe: Warframe): void {
+    this.warframeService
+      .delete(warframe.id)
+      .then(() => {
+        this.warframes = this.warframes.filter(h => h !== warframe);
+        if (this.selectedWarframe === warframe) {this.selectedWarframe = null;}
+      });
   }
 }
 

@@ -1,0 +1,24 @@
+<h2>Frame library</h2>
+<div>
+  <label>Warframe name:</label> <input #warframeName />
+  <button (click)="add(warframeName.value); warframeName.value=''">
+    Add
+  </button>
+</div>
+<ul class="warframes">
+  <li *ngFor="let warframe of warframes"
+      [class.selected]="warframe === selectedWarframe"
+      (click)="onSelect(warframe)">
+    <span class="badge">{{warframe.id}}</span>
+    <span>{{warframe.name}}</span>
+    <button class="delete"
+            (click)="delete(warframe); $event.stopPropagation()">x</button>
+  </li>
+</ul>
+
+<div *ngIf="selectedWarframe">
+  <h2>
+    {{selectedWarframe.name}} preview
+  </h2>
+  <button (click)="gotoDetail()">View Details</button>
+</div>
